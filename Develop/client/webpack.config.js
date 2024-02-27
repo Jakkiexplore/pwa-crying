@@ -18,7 +18,7 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
 
-    /plug-ings for manifest and css loaders
+    //plug-ings for manifest and css loaders
 
 
     plugins: [
