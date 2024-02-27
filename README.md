@@ -52,8 +52,8 @@
 
 
 ## Links
-- []()
-- []()
+- [Link to github repo](https://github.com/Jakkiexplore/pwa-crying)
+- [Link to render](https://pwa-crying.onrender.com)
 
 
 ## Credits
