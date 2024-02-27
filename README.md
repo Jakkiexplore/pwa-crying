@@ -37,23 +37,15 @@
 -THEN I should have proper build scripts for a webpack application
 
 ## Table of Contents
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
+* [Challenge title](#challengetitle)
+* [Description](#description)
+* [User Story](#UserStory)
+* [Acceptance Criteria](#AcceptanceCriteria)
+* [Screenshot](#Screenshot)
+* [Links](#Links)
+* [Credits](#Credits)
 
-## Installation
--
--
--
--
--
--
+
 
 ## Screenshot
 - ![]()
