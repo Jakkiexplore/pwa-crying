@@ -1,8 +1,10 @@
 # pwa-crying
 
 ### Challenge title
+* Progressive Web Applications (PWA) Challenge: Text Editor. Challenge 19.
 
 ## Description
+* This challenge is a text-editor that runs in the browswer. I has starter code from this challenge and we had to store and retrieve data. In this challenge, we had to use indexedDB that has GET and PUT methods, it also had to meet PWA minimum requirements, along with webpacks and having to install package-lock.json in the server. 
 
 ## User Story
 -AS A developer
@@ -48,7 +50,7 @@
 
 
 ## Screenshot
-- ![]()
+- ![PWA Code](./Develop/assects/images/pwa.png)
 
 
 ## Links
@@ -57,4 +59,4 @@
 
 
 ## Credits
--used class activites for reference
+- used class activites for reference. I used challenge 25 and 26!
