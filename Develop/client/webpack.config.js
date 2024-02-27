@@ -18,4 +18,44 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
 
-    
+    /plug-ings for manifest and css loaders
+
+
+    plugins: [
+      new HtmlWebpackPlugin({
+        template: './index.html',
+        title: 'Text Editor'
+      }),
+
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'service-worker.js',
+      }),
+
+
+
+      new WebpackPwaManifest({
+        fingerprints:false;
+
+        name: "Just Another Text Editor",
+        short_name: "J.A.T.E.",
+        description: "Takes notes with JavaScirpt syntax highlighting",
+        background_color: "#225ca3",
+        theme_color: "#225ca3",
+        start_url: "./",
+        publicPath: "./",
+        icons: [
+          {
+            src: path.resolve('src/images/logo.png'),
+            size: [96, 128, 192, 256, 512],
+            destination: path.join("/assets/icons")
+          }
+        ]
+      }),
+     
+    ],
+
+   
+    },
+  }
+};
